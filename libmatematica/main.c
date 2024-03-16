@@ -1,21 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "matematica.h"
+
 int main()
 {
     float angulo = 50.0;
 
-    float x = calcular_seno(angulo);
+    float seno = calcular_seno(angulo);
 
-    float y =  calcular_cosseno(angulo);
+    float cosseno =  calcular_cosseno(angulo);
 
-    float z = calcular_tangente(angulo);
+    float tangente = calcular_tangente(angulo);
 
 
 
-    printf("Seno: %.2f\n", x);
-    printf("Cosseno: %.2f\n", y);
-    printf("Tangente: %.2f\n", z);
+    printf("Seno: %.2f\n", seno);
+    printf("Cosseno: %.2f\n", cosseno);
+    printf("Tangente: %.2f\n", tangente);
 
 
     return 0;
