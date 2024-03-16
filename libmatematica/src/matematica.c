@@ -1,6 +1,8 @@
 #include "matematica.h"
 #include <math.h>
 
+// Implementação das funções criadas no .h
+
  float calcular_seno(float angulo_radianos) {
     return sin(angulo_radianos);
 }
