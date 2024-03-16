@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1710619258 source:c:\users\rauld\onedrive\Área de trabalho\mat\libmatematica\src\matematica.c
+	"matematica.h"
+	<math.h>
+
+1710619244 c:\users\rauld\onedrive\Área de trabalho\mat\libmatematica\include\matematica.h
+
+1710619294 source:c:\users\rauld\onedrive\Área de trabalho\mat\libmatematica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"matematica.h"
+
